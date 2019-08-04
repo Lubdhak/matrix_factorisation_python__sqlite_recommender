@@ -24,12 +24,13 @@ Data Set
 
 Run Command
 ~~~~~~~~~~~~
+cd matrix_factorisation_python__sqlite_recommender
 python3 main.py
 ~~~~~~~~~~~~~~~~~
 
 Future Development
 -----------
-- Use of Apiori Algorithm to Predict items that are mostly brought together
+- Use of Apiori Algorithm to leverage items that are mostly brought together
 
 Project History
 ---------------
@@ -37,7 +38,8 @@ Started as a part of an Job Assignment - "Tinder for Software Stacks"
 
 Help and Support
 ----------------
-Website: http://qbitdata.in/\
+Website: http://qbitdata.in/
+
 Linkedin: https://www.linkedin.com/in/lubdhak/
 
-Special Thanks to www.analyticsvidhya.com
+_Special Thanks to www.analyticsvidhya.com_
