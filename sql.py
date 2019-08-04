@@ -62,3 +62,11 @@ q7 = "Select id from Product"
 q8 = "select id as product_id from Product where id not in (select product_id from Review where user_id=? and rating > ?)"
 
 q9 = "select id as product_id from Product where catagory=? and id not in (select product_id from Review where user_id=? and rating >?)"
+
+q10 = 'CREATE TABLE "Predicted" ( "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE, "product_id" INTEGER NOT NULL, "user_id" INTEGER NOT NULL, "rating" REAL NOT NULL )'
+
+q11 = "DROP TABLE Predicted;"
+
+q12 = "insert into Predicted(product_id,user_id,rating) values(?,?,?)"
+
+q13 = "SELECT pre.product_id,pre.rating,pro.catagory FROM Predicted pre INNER JOIN Product pro on pre.product_id=pro.id where pre.user_id="
