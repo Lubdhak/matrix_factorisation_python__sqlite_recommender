@@ -31,7 +31,7 @@ class MF():
             mse = self.mse()
             training_process.append((i, mse))
         if (i+1) % 20 == 0:
-            print("Iteration: %d ; error = %.4f" % (i+1, mse))
+            print("> Iteration: %d & error = %.4f" % (i+1, mse))
         return training_process
     # Computing total mean squared error
     def mse(self):
