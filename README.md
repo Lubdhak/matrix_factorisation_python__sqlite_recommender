@@ -1,4 +1,4 @@
-# matrix_factorisation_python__sqlite_recommender
+# matrix_factorisation_python_sqlite_recommender
 
 
 Features
