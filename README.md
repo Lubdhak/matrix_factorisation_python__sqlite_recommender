@@ -17,7 +17,8 @@ Installation
 ------------
 Data Set
 ~~~~~~~~~~~~
-266 Products 
+266 Products
+7 catagories
 14 user
 ~~~~~~~~~~~~~~~~~
 
