@@ -1,5 +1,12 @@
 import numpy as np
 class MF():
+
+    # R – The user-movie rating matrix
+    # K – Number of latent features
+    # alpha – Learning rate for stochastic gradient descent
+    # beta – Regularization parameter for bias
+    # iterations – Number of iterations to perform stochastic gradient descent
+
     # Initializing the user-movie rating matrix, no. of latent features, alpha and beta.
     def __init__(self, R, K, alpha, beta, iterations):
         self.R = R
