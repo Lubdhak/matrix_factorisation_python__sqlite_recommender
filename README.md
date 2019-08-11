@@ -36,7 +36,7 @@ Future Development
 
 Other side of Matrix Factorisation 
 -----------
-In Matrix Factorisation the weights are learnt by itself which is great when the data is sparse & most traditional model fails to deal with this scenario but over the time when data gets dense there is no scope of improvement (cause 
+In Matrix Factorisation the weights are learnt by itself which is great when the data is sparse & most traditional model fails to deal with this scenario but over the time when data gets dense there is no scope of improvement cause: 
 
 - We cannot add any extra weight externally
 - The vector length is fixed so any feature prior or post User-item interaction cannot be taken into consideration
