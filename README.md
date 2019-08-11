@@ -34,6 +34,18 @@ Future Development
 -----------
 - Use of Apiori Algorithm to leverage items that are mostly brought together
 
+Other side of Matrix Factorisation 
+-----------
+In Matrix Factorisation the weights are learnt by itself which is great when the data is sparse & most traditional model fails to deal with this scenario but over the time when data gets dense there is no scope of improvement (cause 
+
+- We cannot add any extra weight externally
+- The vector length is fixed so any feature prior or post User-item interaction cannot be taken into consideration
+- All correlation between features are treated naively hence we cannot include any constant or variable human factors into the computation hence it under-fits dense data
+- Generalisation is the strength of Matrix Factorisation Models and Also the weakness
+- Over the time it’ll start recommending product with very less confidence score
+- Appart from Suggestions there are situation like sending Email / Push notifications to the users requires items to have very high confidence score.
+
+
 Project History
 ---------------
 Started as a part of an Job Assignment - "Tinder for Software Stacks"
