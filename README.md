@@ -48,8 +48,8 @@ In Matrix Factorisation the weights are learnt by itself which is great when the
 
 Project History
 ---------------
-Started as a part of an Job Assignment - "Tinder for Software Stacks"
-PS : I got the Job :D
+Started as a part of an Job Assignment - "Tinder for Software Stacks" & i got the job 
+
 Help and Support
 ----------------
 Website: http://qbitdata.in/
